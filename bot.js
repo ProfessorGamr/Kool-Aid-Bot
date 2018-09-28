@@ -27,6 +27,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     to: channelID,
                     message: 'OH YEAH'
                 });
+                
+client.login(process.env.BOT_TOKEN);
             break;
          }
      }
